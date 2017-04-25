@@ -1,19 +1,14 @@
-angular.module('gopro', ['ui-router'])
+angular.module('gopro', ['ui.router'])
 .config(function($stateProvider, $urlRouterProvider){
 
-$urlrouter.otherwise('/')
+$urlRouterProvider.otherwise('/')
 
 $stateProvider
 .state('home', {
-  url:'/',
+  url:'orp/',
   templateUrl: './templates/home.html',
   controller: 'homeCtrl'
 })
-
-
-
-
-
 
 
 })

@@ -30,10 +30,10 @@ gulp.task('frontjs', () => {
   .pipe(sourcemaps.write())
   .pipe(gulp.dest(paths.jsDest));
 });
-gulp.task('watch', () =>  {
-  gulp.watch(paths.jsSource, ['frontjs']);
-  gulp.watch(paths.scssSource, ['styles']);
-});
+// gulp.task('watch', () =>  {
+//   gulp.watch(paths.jsSource, ['frontjs']);
+//   gulp.watch(paths.scssSource, ['styles']);
+// });
 gulp.task('watch', () => {
   watch(paths.jsSource, {usePolling:true}, () => {
     gulp.start('frontjs')

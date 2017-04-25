@@ -1,5 +1,5 @@
-angular.module('gopro').controller('mainCtrl', function($scope, homeSrvc, $stateParams){
+angular.module('gopro').controller('homeCtrl', function($scope, homeSrvc, $stateParams){
 
 
-  
+
 })
