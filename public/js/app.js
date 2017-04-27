@@ -5,7 +5,7 @@ $urlRouterProvider.otherwise('/')
 
 $stateProvider
 .state('home', {
-  url:'orp/',
+  url:'/',
   templateUrl: './templates/home.html',
   controller: 'homeCtrl'
 })

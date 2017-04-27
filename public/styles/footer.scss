@@ -1,0 +1,162 @@
+$footer: #000000;
+$goblue: #009FDF;
+$genFont: "sans-serif";
+
+
+footer {
+  overflow: auto;
+  position: relative;
+  background-color: $footer;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 60vh;
+  // position: fixed;
+  margin: 0;
+  bottom: 0;
+
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 75px;
+
+}
+
+.gopro-movement {
+  width: 30%;
+ h3 {
+  border-bottom: 2px solid white;
+}
+  p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.software-updates  {
+  h3 {
+  border-bottom: 2px solid white;
+}
+  p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.customer-support {
+  h3{
+    border-bottom: 2px solid white;
+
+  }
+  p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.newsletter-signup {
+  color: $goblue;
+  float: left;
+  // flex-wrap: wrap;
+  font-family: helvetica;
+  width: 29%;
+}
+
+.download-update {
+  color: $goblue;
+  font-family: helvetica;
+  margin-top: 60px;
+}
+
+.visit-support {
+  color: $goblue;
+  margin-top: 60px;
+}
+
+.social-wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.social-line {
+  border-bottom: 1px solid white;
+  margin-left: 55px;
+  // margin-right: 25px;
+  width: 92%;
+  color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  // float: left;
+  padding-bottom: 16px;
+  }
+
+  .social-icons{
+    width: 40%;
+    display: flex;
+    // margin: 0 50px;
+    img {
+      // margin: 0px 10px;
+      padding-right: 25px;
+    }
+    justify-content: flex-start;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-top: 1px solid white;
+  }
+
+  .guarantee {
+    color: #CCCCCC;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    font: 24px;
+  }
+
+  .link-section {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    padding-top: 20px;
+  }
+
+  .links {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    li {
+      margin: 8px 15px;
+      font-family: "sans-serif";
+      font-size: 17px;
+
+    }
+  }
+
+  .rights-reserved {
+    display: flex;
+
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 25px;
+    width:90%;
+    color:#666666;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
