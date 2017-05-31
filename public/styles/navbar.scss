@@ -10,32 +10,34 @@
   height: 93px;
   width: 100%;
   text-decoration: none;
-  z-index: 10;
+  z-index: 15;
   // padding-top: 20px;
   // background-color: black;
   // opacity: .5;
 }
 
 .nav-bar-wrapper {
-  // display: flex;
+  display: flex;
   // justify-content: flex-start;
-  // align-items: center;
+  align-items: center;
   // justify-content: space-between;
-  z-index: 10;
+  z-index: 5;
   background-color: black;
-  width: 89%;
-  height: 93px;
+  width: 90%;
+  height: 75px;
+  position: absolute;
+  top: 0;
 }
 
 .navbar-links {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   font-family: 'Heebo', sans-serif;
   z-index: 10;
   display: flex;
   align-items: center;
-  z-index: 10;
+  z-index: 5;
   height: 93px;
   width: 50%;
   padding-right: 30px;
@@ -52,8 +54,67 @@
 .gp-logo {
   width: 9vw;
   z-index: 10;
+  padding-right: 15px;
 }
 .gp-plus-logo {
   width: 5vw;
   z-index: 10;
+}
+
+.shipping {
+  width:100%;
+  height: 4vh;
+  p {
+    color: #009fdf;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+
+.login-support-cart {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
+  margin-right: 2vw;
+  a {
+    padding-right: 25px;
+    font-size: 15px;
+
+  }
+}
+.shop-panel-holder{
+  width: 100%;
+display: flex;
+text-align: center;
+margin-top: 22vh;
+justify-content: space-around;
+}
+#shop-panel {
+  width: 90%;
+  height: 15vh;
+  background-color: white;
+  z-index: 15;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  img {
+  height: 4.5vw;
+  padding: 2vh 3vw;
+  }
+}
+
+a:hover {
+  color:#D2D2D2;
+  cursor: pointer;
+}
+
+li:hover{
+  color:#D2D2D2;
+  cursor:pointer;
+}
+
+button:hover{
+  cursor:pointer;
 }

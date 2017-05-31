@@ -16,6 +16,16 @@ angular.module('gopro').directive('navbar', () => {
         });
       });
 
+      $(document).ready(function(){
+    $("#shop-flip").mouseenter(function(){
+        $("#shop-panel").stop(true).slideDown();
+    });
+    $("#shop-panel, #shop-flip").mouseleave(function(){
+      $("#shop-panel").stop(true).slideUp();
+    })
+});
+
+
     }
   };
 });
