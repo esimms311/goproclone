@@ -5,7 +5,7 @@ var massive = require('massive');
 var session = require('express-session');
 // var config = require('./config');
 
-var port = 4000;
+// var port = 4000;
 
 var app = module.exports = express();
 // var app = express();
